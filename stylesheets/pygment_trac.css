@@ -6,7 +6,7 @@
 .highlight .o { color: #555555 } /* Operator */
 .highlight .cm { color: #0099FF; font-style: italic } /* Comment.Multiline */
 .highlight .cp { color: #009999 } /* Comment.Preproc */
-.highlight .c1 { color: #0099FF; font-style: italic } /* Comment.Single */
+.highlight .c1 { color: #008312; font-style: italic } /* Comment.Single */
 .highlight .cs { color: #0099FF; font-weight: bold; font-style: italic } /* Comment.Special */
 .highlight .gd { background-color: #FFCCCC; border: 1px solid #CC0000 } /* Generic.Deleted */
 .highlight .ge { font-style: italic } /* Generic.Emph */
@@ -22,8 +22,8 @@
 .highlight .kd { color: #006699; font-weight: bold } /* Keyword.Declaration */
 .highlight .kn { color: #006699; font-weight: bold } /* Keyword.Namespace */
 .highlight .kp { color: #006699 } /* Keyword.Pseudo */
-.highlight .kr { color: #006699; font-weight: bold } /* Keyword.Reserved */
-.highlight .kt { color: #007788; font-weight: bold } /* Keyword.Type */
+.highlight .kr { color: #AA0C91 } /* Keyword.Reserved */
+.highlight .kt { color: #5C2699 } /* Keyword.Type */
 .highlight .m { color: #FF6600 } /* Literal.Number */
 .highlight .s { color: #CC3300 } /* Literal.String */
 .highlight .na { color: #330099 } /* Name.Attribute */
@@ -40,7 +40,7 @@
 .highlight .nv { color: #003333 } /* Name.Variable */
 .highlight .ow { color: #000000; font-weight: bold } /* Operator.Word */
 .highlight .w { color: #bbbbbb } /* Text.Whitespace */
-.highlight .mf { color: #FF6600 } /* Literal.Number.Float */
+.highlight .mf { color: #1C00CF } /* Literal.Number.Float */
 .highlight .mh { color: #FF6600 } /* Literal.Number.Hex */
 .highlight .mi { color: #FF6600 } /* Literal.Number.Integer */
 .highlight .mo { color: #FF6600 } /* Literal.Number.Oct */

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="TimeExtensions : Simple and elegant module for working with time">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>TimeExtensions - Documentation</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+            <a id="forkme_banner" href="https://github.com/roshanr95/TimeExtensions">View on GitHub</a>
+
+            <h1 id="project_title">TimeExtensions</h1>
+            <h2 id="project_tagline">Simple and elegant module for working with time</h2>
+
+            <section id="downloads">
+                <a class="zip_download_link" href="https://github.com/roshanr95/TimeExtensions/zipball/master">Download this project as a .zip file</a>
+                <a class="tar_download_link" href="https://github.com/roshanr95/TimeExtensions/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+            <h1><a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Date Constructors</h1>
+
+            <p>Date constructors are functions/computed properties added to <code>NSTimeInterval</code> which makes it easy to construct a <code>NSDate</code> differing from another <code>NSDate</code> by a given time interval.</p>
+
+            <h2><a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Supported Date Constructors</h2>
+
+            <p>The following date constructors are supported by the library : </p>
+
+            <ul>
+                <li>fromNow</li>
+                <li>ago</li>
+                <li>since</li>
+                <li>until</li>
+            </ul>
+
+            <h2><a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+            <h3>ago</h3>
+            <hr>
+            <h6>Signature</h6>
+
+            <div class="highlight highlight-swift">
+                <pre><span class="kr">public var</span> ago : <span class="kt">NSDate</span> { <span class="kr">get</span> }</pre>
+            </div>
+
+            <h6>Usage</h6>
+
+            <div class="highlight highlight-swift">
+                <pre><span class="mf">10</span>.seconds.ago <span class="c1">// Returns a NSDate 10 seconds in the past</span></pre>
+            </div>
+
+            <h3>until</h3>
+            <hr>
+            <h6>Signature</h6>
+
+            <div class="highlight highlight-swift">
+                <pre><span class="kr">public func</span> until(date: <span class="kt">NSDate</span>) -> <span class="kt">NSDate</span></pre>
+            </div>
+
+            <h6>Usage</h6>
+
+            <div class="highlight highlight-swift">
+                <pre><span class="mf">10</span>.seconds.until(someDate) <span class="c1">// Returns a NSDate 10 seconds before someDate</span></pre>
+            </div>
+
+            <h3>fromNow</h3>
+            <hr>
+            <h6>Signature</h6>
+
+            <div class="highlight highlight-swift">
+                <pre><span class="kr">public var</span> fromNow : <span class="kt">NSDate</span> { <span class="kr">get</span> }</pre>
+            </div>
+
+            <h6>Usage</h6>
+
+            <div class="highlight highlight-swift">
+                <pre><span class="mf">10</span>.seconds.fromNow <span class="c1">// Returns a NSDate 10 seconds in the future</span></pre>
+            </div>
+
+            <h3>since</h3>
+            <hr>
+            <h6>Signature</h6>
+
+            <div class="highlight highlight-swift">
+                <pre><span class="kr">public func</span> since(date: <span class="kt">NSDate</span>) -> <span class="kt">NSDate</span></pre>
+            </div>
+
+            <h6>Usage</h6>
+
+            <div class="highlight highlight-swift">
+                <pre><span class="mf">10</span>.seconds.since(someDate) <span class="c1">// Returns a NSDate 10 seconds after someDate</span></pre>
+            </div>
+        </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+        <footer class="inner">
+            <p class="copyright">TimeExtensions maintained by <a href="https://github.com/roshanr95">Roshan</a></p>
+            <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        </footer>
+    </div>
+
+
+
+</body>
+</html>
